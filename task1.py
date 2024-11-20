@@ -9,7 +9,7 @@ from functools import wraps
 
 def strict(func):
 
-    # @wraps
+    @wraps
     def wrapper(*args, **kwargs):
 
         # Получаем в список все заданные типы параметров, кроме return
